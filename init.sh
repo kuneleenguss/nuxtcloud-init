@@ -1,7 +1,7 @@
 #!/bin/sh
 
 apt update
-apt install sudo
+apt install -y sudo
 
 cd scripts/
 
