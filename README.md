@@ -1,4 +1,3 @@
-**В /etc/network/interfaces НЕ должно быть записей для ipv6**
 
 ```
 apt update
