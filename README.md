@@ -1,15 +1,18 @@
-**apt update**
+**В /etc/network/interfaces НЕ должно быть записей для ipv6**
 
-**apt install git**
+```
+apt update
 
-**apt install dos2unix**
+apt install git
 
-**sudo git clone 'https://github.com/kuneleenguss/nuxtcloud-init.git' '/opt/nuxt-init/'**
+apt install dos2unix
 
-**cd /opt/nuxt-init/**
+sudo git clone 'https://github.com/kuneleenguss/nuxtcloud-init.git' '/opt/nuxt-init/'
 
-**sudo chmod +x init.sh**
+cd /opt/nuxt-init/
 
-**sudo dos2unix init.sh**
+sudo chmod +x init.sh
 
-**sudo ./init.sh**
+sudo dos2unix init.sh
+
+sudo ./init.sh
