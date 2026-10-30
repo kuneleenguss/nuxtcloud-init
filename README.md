@@ -2,10 +2,14 @@
 
 **apt install git**
 
+**apt install dos2unix**
+
 **sudo git clone 'https://github.com/kuneleenguss/nuxtcloud-init.git' '/opt/nuxt-init/'**
 
 **cd /opt/nuxt-init/**
 
 **sudo chmod +x init.sh**
+
+**sudo dos2unix init.sh**
 
 **sudo ./init.sh**
