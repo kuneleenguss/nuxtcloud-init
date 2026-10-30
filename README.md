@@ -3,9 +3,9 @@
 ```
 apt update
 
-apt install git
+apt -y install git
 
-apt install dos2unix
+apt -y install dos2unix
 
 sudo git clone 'https://github.com/kuneleenguss/nuxtcloud-init.git' '/opt/nuxt-init/'
 
