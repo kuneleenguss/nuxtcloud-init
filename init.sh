@@ -2,6 +2,8 @@
 
 apt update
 apt -y install sudo
+apt -y install docker.io
+apt -y install xxd
 
 cd scripts/
 
