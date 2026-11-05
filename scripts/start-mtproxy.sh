@@ -68,7 +68,7 @@ sudo docker run -d \
 # Проверяем результат
 sleep 3
 if sudo docker ps | grep -q ${CONTAINER_NAME}; then
-    SERVER_IP=$(curl -s ifconfig.me)
+    SERVER_IP=$(curl -4 ifconfig.me)
 
     echo -e "${GREEN}✅ УСПЕШНО${NC}"
     echo ""
