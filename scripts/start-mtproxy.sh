@@ -7,7 +7,7 @@ YELLOW='\033[1;33m'
 BLUE='\033[0;34m'
 NC='\033[0m'
 
-read -p "Введите IP сервера: " SERVER_IP
+read -p "Введите IP сервера для MtProto: " SERVER_IP
 CONTAINER_NAME="mtproto-proxy"
 PORT="443"
 FAKE_DOMAIN="ya.ru"  # Фиксированный домен для Fake TLS
