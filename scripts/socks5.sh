@@ -9,4 +9,5 @@ sudo useradd -m socks
 sudo passwd socks
 
 sudo systemctl restart danted
-systemctl status danted
+echo "danted $(systemctl is-active danted)"
+echo "danted $(systemctl is-enabled danted)"
