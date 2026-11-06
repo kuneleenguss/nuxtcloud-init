@@ -5,8 +5,7 @@ sudo apt install dante-server -y
 
 cp danted.conf /etc/danted.conf
 
-sudo useradd -m socks
-sudo passwd socks
+sudo useradd -m socks && sudo passwd socks
 
 sudo systemctl restart danted
 echo "danted $(systemctl is-active danted)"
