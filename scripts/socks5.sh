@@ -9,4 +9,4 @@ sudo useradd -m socks
 sudo passwd socks
 
 sudo systemctl restart danted
-sudo systemctl status danted
+systemctl status danted
