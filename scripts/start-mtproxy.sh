@@ -7,6 +7,7 @@ YELLOW='\033[1;33m'
 BLUE='\033[0;34m'
 NC='\033[0m'
 
+read -p "Введите IP сервера: " SERVER_IP
 CONTAINER_NAME="mtproto-proxy"
 PORT="443"
 FAKE_DOMAIN="ya.ru"  # Фиксированный домен для Fake TLS
@@ -68,7 +69,7 @@ sudo docker run -d \
 # Проверяем результат
 sleep 3
 if sudo docker ps | grep -q ${CONTAINER_NAME}; then
-    SERVER_IP=$(curl -4 ifconfig.me)
+    #SERVER_IP=$(curl -4 ifconfig.me)
 
     echo -e "${GREEN}✅ УСПЕШНО${NC}"
     echo ""
